@@ -124,8 +124,8 @@ function addWeather(lat,lon){
       var cWindP = $("<p>").addClass("h6")
       var cHumidP = $("<p>").addClass("h6")
       $(cCityP).text(dateDis);
-      $(cTempPmx).text("Temp: "+ tempMax+ degreeSymbol);
-      $(cTempPmn).text("Temp: "+ tempMin+ degreeSymbol);
+      $(cTempPmx).text("Max Temp: "+ tempMax+ degreeSymbol);
+      $(cTempPmn).text("Min Temp: "+ tempMin+ degreeSymbol);
       $(cWindP).text("Wind "+ wind+" m/s");
       $(cHumidP).text("Humidity: "+humidity+"%");
       var wCol=$('<div>').addClass("col col-lg-2 bg-light mx-2 border border-black rounded-2");
