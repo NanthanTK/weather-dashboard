@@ -1,3 +1,9 @@
+* {
+   box-sizing: border-box;
+ }
+ 
+
+
 section {
    padding: 20px 0; 
 }
@@ -7,4 +13,12 @@ section {
    height: 35px;
    padding: 0;
    margin: 25px;
+}
+
+.themeBg{
+   background: rgb(219, 240, 240)
+   
+}
+#headerText{
+   font-weight: bolder;
 }
