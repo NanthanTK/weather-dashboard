@@ -65,7 +65,7 @@ through the coordinats passed as arguments*/
 function addWeather(lat,lon){
   console.log(lat,lon);
   // fetch request gets the coordinates of a number of cities for a city. The first result is used here
-  var requestUrl = 'http://api.openweathermap.org/data/2.5/forecast?lat='+lat+'&lon='+lon+'&units=metric&cnt=5&appid=4d0033bb108e7e87d29c289b26b71d89';
+  var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat='+lat+'&lon='+lon+'&units=metric&cnt=5&appid=4d0033bb108e7e87d29c289b26b71d89';
 
   fetch(requestUrl)
     .then(function (response) {
