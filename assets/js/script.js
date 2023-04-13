@@ -10,7 +10,7 @@ function getCoordinates() {
     var cityValue=(searchData.value).toUpperCase();
     console.log(cityValue);
     // fetch request gets the coordinates of a number of cities for a city. The first result is used here
-    var requestUrl = 'http://api.openweathermap.org/geo/1.0/direct?q= '+cityValue+'&limit=1&appid=4d0033bb108e7e87d29c289b26b71d89';
+    var requestUrl = 'https://api.openweathermap.org/geo/1.0/direct?q= '+cityValue+'&limit=1&appid=4d0033bb108e7e87d29c289b26b71d89';
   
     fetch(requestUrl)
       .then(function (response) {
